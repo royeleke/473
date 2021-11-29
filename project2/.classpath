@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="jars/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-aspects-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-instrument-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-instrument-tomcat-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-jms-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-messaging-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-oxm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-webmvc-portlet-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="jars/spring-websocket-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

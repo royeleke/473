@@ -1,0 +1,20 @@
+Observer Pattern: 
+
+	The problem statement was that whenever a new criminal was added to the wanted list, all the prisons needed to be informed of that criminal 
+	So I used observer design pattern to update the state of wanted list in prisons. I made the prisons observer class which observed the wanted list.
+	The wanted list contains all the observers and the criminal list. Whenever a new criminal is added to the criminal list, it notifies the prisons by 
+	calling the update method in the prison class to update the records. 
+
+Visitor Pattern: 
+
+	The problem statement was that there are many kinds of animal and each class would have its own implementation of the sound the animal makes. To make it 
+	easier I used Visitor Pattern to move the logic of each object to another class which is the visitor class. The visitor class visits the object and the object
+	accepts the visitor. On acceptance the visitor class outputs the result according to the object it visited. Hence one visitor may contain all logic for the animals 
+	and can output accordingly. 
+
+Bridge Pattern:
+
+	The problem was creating multiple classes to do the same task differently. This was making the code more complex. So I used the bridge pattern to make the readability 
+	easier and understanding the code much easier as well. I used an interface that contained the required functions but only gave definitions. The classes that implement 
+	it may use the function as they want. This also helped me in keeping the structure loosely coupled and if I needed to change something about the implementation, I can
+	just change it in one place rather than have the implementation done in the parent class and have them changed in all extended classes. 
