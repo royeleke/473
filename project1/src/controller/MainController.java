@@ -7,6 +7,6 @@ public class MainController {
 	
 	public static void main(String[] args) {
 			mainService= new MainService();
-			System.out.println(mainService.listMaintRequests());
+			System.out.println(mainService.listFacilities());
 	}
 }
